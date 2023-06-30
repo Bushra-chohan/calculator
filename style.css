@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(208, 221, 235);
+}
+
+
+.container{
+    margin-top: 100px;
+    margin-left: 500px;
+    height: 450px;
+    width: 300px;
+    background-color: #1e2c44;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.number-grid{
+    display: grid;
+    row-gap: 25px;
+    grid-template-rows: 50px;
+    margin-left: 25px;
+}
+
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    box-shadow:  -3px -3px 10px 0px rgba(70, 72, 110, 0.7);
+    height: 45px;
+    width: 45px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: -3px -3px 10px 0px rgba(161, 164, 224, 0.7);
+}
+
+.operator-buttons, .AC-button{
+    color: rgb(39, 231, 199)
+}
+
+.is-equal-to-button{
+    width: 100px;
+    border-radius: 10%;
+}
+
+.display{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+#text-entered-value{
+    color: white;
+    width: 220px;
+    font-family:'Roboto', sans-serif;
+    font-size: 45px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    text-align: right;
+    border-radius: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: none;
+    background-color: #1e2c44;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}

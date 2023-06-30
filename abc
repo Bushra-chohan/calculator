@@ -1,0 +1,22 @@
+
+
+let input = document.getElementsbyId('.text-entered-value');
+
+let buttons = document.querySelectorAll('button');
+
+console.log(buttons.innerHTML)
+
+
+let string = '';
+let buttonArray = Array.from(buttons);
+buttonArray.forEach(button => {
+    button.addEventListener('click', (e) => {
+        if (e.target.innerHTML == '='){
+            string = eval(string);
+            input.value = string;
+        }
+
+        string += e.target.innerHTML;
+        input.value = string
+    })
+}) 
