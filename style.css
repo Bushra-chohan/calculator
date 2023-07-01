@@ -82,7 +82,7 @@ input:focus{
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .container{
         margin-left: 0px;
     }
